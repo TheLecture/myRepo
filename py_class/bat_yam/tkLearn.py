@@ -47,6 +47,9 @@ myBtn2.pack(pady=50)
 myBtn3 = Button(window,text="click Here!",command=whenClicked2)
 myBtn3.pack(pady=50)
 
+myBtn4 = Button(window,text="click Here!",command=whenClicked2)
+myBtn3.pack(pady=50)
+
 
 window.mainloop()
 
