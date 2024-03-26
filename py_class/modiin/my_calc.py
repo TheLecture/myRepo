@@ -1,14 +1,13 @@
 def mycalc():
     print("Hello, wellcome to my simple calculator :)")
-    firstNum = float(input("please......."))
-    operator = input("please......operator(+,-,/,*,**)")
-    secNum = float(input("please...2nd.."))
+    firstNum = float(input("please enter a number\n"))
+    operator = input("please enter an operator(+,-,/,*,**)\n")
+    secNum = float(input("please enter another number\n"))
     result = operation_perform(firstNum,operator,secNum)  
     
     print(result)  
     
-
-                    
+                 
 def operation_perform(num1,oprt,num2):
     if oprt == '+':
         return num1+num2
