@@ -9,7 +9,7 @@ def whenClicked():
  
 def whenClicked2():
     num=int(numToConvert.get())
-    numLabel.config(text=f"Num: {num}")
+    numLabel.config(text=num)
     return num
 
 #-------------תחילת יצירת החלון:-----------------
@@ -49,6 +49,9 @@ myBtn3.pack(pady=50)
 
 myBtn4 = Button(window,text="click Here!",command=whenClicked2)
 myBtn3.pack(pady=50)
+
+txt = Text(window)
+txt.pack(pady=50)
 
 
 window.mainloop()

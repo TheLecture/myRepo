@@ -19,7 +19,6 @@ def operation_perform(num1,num2,operator):# פונקציה אשר בודקת א�
             print("you cant split to 0, try agian...\n")
     elif operator == '*':
         return num1 * num2
-    
     elif operator == '**':
         return num1**num2
     else:

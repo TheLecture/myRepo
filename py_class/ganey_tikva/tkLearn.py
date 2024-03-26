@@ -40,7 +40,7 @@ numLabel = Label(window, text=num)
 numLabel.pack()
 
 stamLabael=Label(text="im here")
-stamLabael.place(x=0,y=0)
+stamLabael.place(x=150,y=90)
 
 
 myBtn2 = Button(window,text="my sec btn",command=whenClicked)
